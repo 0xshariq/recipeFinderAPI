@@ -29,7 +29,7 @@ app.use(errorMiddleware)
 
 // Routes
 app.use("/api/v1/users", userRouter)
-app.use("/api/v1/quran", apiKeyMiddleware, recipeRouter)
+app.use("/api/v1/recipe", apiKeyMiddleware, recipeRouter)
 
 // Root route
 app.get("/", (req, res) => {
