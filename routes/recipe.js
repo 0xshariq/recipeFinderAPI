@@ -11,7 +11,7 @@ router.get("/categories", getRecipeCategories);
 router.get("/category/:category", getRecipeByCategory);
 router.get("/area/:area", getRecipeByArea);
 router.get("/ingredient/:ingredients", getRecipeByIngredient);
-router.get("/instructions/:id", getRecipeInstructions);
-router.get("/summary/:id", getRecipeSummarize);
+router.get("/instructions/id/:id", getRecipeInstructions);
+router.get("/summary/id/:id", getRecipeSummarize);
 
 export default router;
